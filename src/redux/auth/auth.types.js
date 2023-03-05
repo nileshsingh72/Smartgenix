@@ -1,4 +1,4 @@
-export const loginSuccess = "login/Success";
-export const loginLogout = "login/Logout";
-export const loginError = "login/Error";
-export const loginLoading = "login/Loading";
+export const AUTH_LOADING = 'auth/loading';
+export const AUTH_ERROR = 'auth/error';
+export const AUTH_SIGNIN_SUCCESS = 'auth/signin/success';
+export const AUTH_LOGOUT = 'auth/logout';
