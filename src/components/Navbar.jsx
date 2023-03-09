@@ -27,7 +27,7 @@ function Navbar(){
              <MenuButton  className='navLink'>Product</MenuButton>
                  <MenuList bg='#152238' color='white'>
                    <MenuItem bg='#152238' color='white'><Link className='navLink' to='/product/Mobiles'>Mobiles</Link></MenuItem>
-                   <MenuItem bg='#152238' color='white'><Link className='navLink' to='/product/Laptops'>Laptops</Link></MenuItem>
+                   <MenuItem bg='#152238' color='white'><Link className='navLink' to='/product/Laptop'>Laptops</Link></MenuItem>
                    <MenuItem bg='#152238' color='white'><Link className='navLink' to='/product/Watches'>Watches</Link></MenuItem>
                  </MenuList>
              </Menu>
@@ -68,8 +68,8 @@ function Navbar(){
     <MenuItem onClick={()=>navigate('/product/Mobiles')} bg='#152238' color='white' icon={<CiMobile3 fontSize='25px' />} >
     <Link to='/product/Mobiles'>Mobiles</Link>
     </MenuItem>
-    <MenuItem onClick={()=>navigate('/product/Laptops')} bg='#152238' color='white' icon={<AiOutlineLaptop fontSize='25px' />}>
-    <Link to='/product/Laptops'>Laptops</Link>
+    <MenuItem onClick={()=>navigate('/product/Laptop')} bg='#152238' color='white' icon={<AiOutlineLaptop fontSize='25px' />}>
+    <Link to='/product/Laptop'>Laptops</Link>
     </MenuItem>
     <MenuItem onClick={()=>navigate('/product/Watches')} bg='#152238' color='white' icon={<TbDeviceWatchStats2 fontSize='25px'/>}>
     <Link to='/product/Watches'>Watches</Link>
