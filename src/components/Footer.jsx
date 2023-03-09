@@ -9,6 +9,8 @@ function Footer(){
            m='auto'
            mt='100px'
            color='white'
+           zIndex='1000'
+           position='relative'
         >
 
         <Box w='100%' p='30px'>
@@ -79,6 +81,10 @@ function Footer(){
   <ListItem>
     <ListIcon as={MdCheckCircle} color='green.500' />
      Poco
+  </ListItem> 
+  <ListItem>
+    <ListIcon as={MdCheckCircle} color='green.500' />
+     Motorola
   </ListItem> 
   <ListItem>
     <ListIcon as={MdCheckCircle} color='green.500' />

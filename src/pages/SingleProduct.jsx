@@ -1,7 +1,11 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 
 function SingleProduct() {
-  return <div>SingleProduct page..</div>;
+  const params = useParams();
+  const id = params.id;
+
+  return <div>SingleProduct page.. {id}</div>;
 }
 
 export default SingleProduct;
